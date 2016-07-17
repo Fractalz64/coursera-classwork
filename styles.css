@@ -1,0 +1,7 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  color: white;
+  background-color: #191919;
+}
