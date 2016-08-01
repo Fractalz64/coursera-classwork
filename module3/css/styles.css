@@ -1,0 +1,123 @@
+/********** Base styles **********/
+* {
+  font-size: 16px;
+  font-family: 'Tillana', cursive;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ffa500;
+  border-radius: 0;
+  border: 1;
+  min-height: 64px;
+}
+
+#sun-img {
+  background: url('../images/sun-icon.png') no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+#moon-img {
+  background: url('../images/moon-icon.png') no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-brand h1 { /* Name */
+  color: #4CA6FF;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #4CA6FF;
+  text-align: center;
+  text-shadow: 1px 1px 1px #fff;
+}
+#nav-list a:hover {
+  background: #EDF6FF;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #4CA6FF;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -35px;
+}
+/* END HEADER */
+
+/* BODY */
+body {
+	background-image: url("../images/Alola_artwork.png");
+	background-size: cover;
+}
+
+h2 { /* title */
+  color: #ffa500;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px #000;
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+h3 { /* pokemon names */
+  font-weight: bold;
+  text-shadow: 1px 1px 0px #000;
+}
+
+.poke-tile {
+  border: 1px solid black;
+  height: 800px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 50px;
+  color: white;
+  overflow: auto;
+}
+
+#rowlet {
+	background: rgba(1, 166, 17, 0.8);
+}
+#litten {
+	background: rgba(255, 165, 0, 0.8);
+}
+#popplio {
+	background: rgba(28, 163, 236, 0.8);
+}
+
+#rowlet-img {
+	background: url('../images/rowlet.png');
+	width: 250px;
+  	height: 250px;
+}
+#litten-img {
+	background: url('../images/litten.png');
+	width: 250px;
+  	height: 250px;
+}
+#popplio-img {
+	background: url('../images/popplio.png');
+	width: 250px;
+  	height: 250px;
+}
+
+p {
+padding: 10px;
+}
+
